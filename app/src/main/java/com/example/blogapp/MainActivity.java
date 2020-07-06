@@ -73,8 +73,7 @@ public class MainActivity extends AppCompatActivity {
                 String  newsDsc =  newsObject.getString("description");
                 String newsUrl =   newsObject.getString("url");
                 String newsImageurl =newsObject.getString("urlToImage");
-
-                ModelNews newsItem = new ModelNews(newsTitle,newsDsc,newsUrl,newsImageurl);
+                ModelNews newsItem = new ModelNews(newsTitle,newsDsc,newsImageurl,newsUrl);
 
                 newsArray.add(newsItem);
 
